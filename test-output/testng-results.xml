@@ -1,78 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-24T09:47:11Z" name="Default suite" finished-at="2023-04-24T09:48:23Z" duration-ms="72088">
+  <suite started-at="2023-05-08T15:21:19Z" name="Default suite" finished-at="2023-05-08T15:21:23Z" duration-ms="3341">
     <groups>
     </groups>
-    <test started-at="2023-04-24T09:47:11Z" name="Default test" finished-at="2023-04-24T09:48:23Z" duration-ms="72088">
-      <class name="Testcases.LoginTest">
-        <test-method is-config="true" signature="Reportsetup()[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:47:11Z" name="Reportsetup" finished-at="2023-04-24T09:47:12Z" duration-ms="1213" status="PASS">
+    <test started-at="2023-05-08T15:21:19Z" name="Default test" finished-at="2023-05-08T15:21:23Z" duration-ms="3341">
+      <class name="Testcases.GridExample">
+        <test-method signature="testgrid()[pri:0, instance:Testcases.GridExample@4e423aa2]" started-at="2023-05-08T15:21:19Z" name="testgrid" finished-at="2023-05-08T15:21:23Z" duration-ms="3300" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Reportsetup -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:47:12Z" name="setup" finished-at="2023-04-24T09:47:19Z" duration-ms="6528" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Testcases.LoginTest.Test2() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Test2()[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:47:19Z" name="Test2" finished-at="2023-04-24T09:47:37Z" duration-ms="18088" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:47:37Z" name="teardown" finished-at="2023-04-24T09:47:37Z" duration-ms="343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:47:37Z" name="setup" finished-at="2023-04-24T09:47:42Z" duration-ms="4752" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Testcases.LoginTest.test1() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test1()[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:47:42Z" name="test1" finished-at="2023-04-24T09:48:00Z" duration-ms="18253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:48:00Z" name="teardown" finished-at="2023-04-24T09:48:00Z" duration-ms="260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:48:00Z" name="setup" finished-at="2023-04-24T09:48:05Z" duration-ms="4760" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Testcases.LoginTest.test4() throws com.codoid.products.exception.FilloException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test4()[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:48:05Z" name="test4" finished-at="2023-04-24T09:48:22Z" duration-ms="17200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:48:22Z" name="teardown" finished-at="2023-04-24T09:48:23Z" duration-ms="292" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="ReportClean()[pri:0, instance:Testcases.LoginTest@8e50104]" started-at="2023-04-24T09:48:23Z" name="ReportClean" finished-at="2023-04-24T09:48:23Z" duration-ms="363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportClean -->
-      </class> <!-- Testcases.LoginTest -->
+        </test-method> <!-- testgrid -->
+      </class> <!-- Testcases.GridExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
